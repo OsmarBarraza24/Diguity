@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Manrope&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Manrope', sans-serif!important;
+}
+
+header{
+    background-image: url("../images/landind.JPG");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.opacity-black{
+    background: rgba(29, 29, 29, 0.1);
+}
+
+.info{
+    margin-top: 20%;
+}
+
+a{
+    color: inherit;
+}
+
+#section{}
+
+.images{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+.phone-app{
+    background-color: black;
+    height: 100vh;
+    background-image: url("../images/papas-banner.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.phone-let{
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+}
